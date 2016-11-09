@@ -1,12 +1,12 @@
 
 # Set the file name of your jar package:
-JAR_PKG = disassemble.jar
+JAR_PKG = Solution.jar
 # Set your entry point of your java app:
-ENTRY_POINT = disassemble
+ENTRY_POINT = Solution
 RES_DIR = no
 
 SOURCE_FILES = \
-disassemble.java
+Solution.java
 
 
 # Set your java compiler here:

@@ -19,14 +19,14 @@ public class Solution {
         ListNode dummy = new ListNode(0);
         ListNode node = dummy;
         while(l1 != null || l2 != null){
-            if(l1 == null){
+            if(l1 == null){//因为空节点是不允许有val的
                 ListNode temp = l2.next;
                 l2.next = node.next;
                 node.next = l2;
                 l2 = temp;
                 node = node.next;
             }
-            else if(l2 == null){
+            else if(l2 == null){//因为空节点是不允许有val的
                 ListNode temp = l1.next;
                 l1.next = node.next;
                 node.next = l1;

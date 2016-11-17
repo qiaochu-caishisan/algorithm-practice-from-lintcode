@@ -9,7 +9,10 @@
  *     }
  * }
  */ 
- /*这道题的其中一种做法之一就是利用heap来解决，java里面用来实现heap的东西就是priority queue和comparator.priority queue默认是从小到大来输出，最小的最先被poll出去。但是这个大小的关系却是由comparator来决定的！ comparator的两个参数，参数1 和参数2 如果comparator的compare函数返回的是negative 那就说明参数1是小的 参数2是大的 返回的0 就说明参数1和参数2相等 返回的是正数  说明参数1 大一些 参数2 小一些 具体的可以去查Java手册就知道了*/
+ /*这道题的其中一种做法之一就是利用heap来解决，java里面用来实现heap的东西就是priority queue和comparator.priority queue默认是从小到大来输出，
+ 最小的最先被poll出去。但是这个大小的关系却是由comparator来决定的！ comparator的两个参数，参数1 和参数2 
+ 如果comparator的compare函数返回的是negative 那就说明参数1是小的 参数2是大的 返回的0 就说明参数1和参数2相等 返回的是正数  
+ 说明参数1 大一些 参数2 小一些 具体的可以去查Java手册就知道了*/
 public class Solution {
     /**
      * @param lists: a list of ListNode

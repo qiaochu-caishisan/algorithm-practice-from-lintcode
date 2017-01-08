@@ -1,0 +1,1 @@
+Check two given binary trees are identical or not. Assuming any number of tweaks are allowed. A tweak is defined as a swap of the children of one node in the tree.这道题很简单就是用递归去完成 不过其实这个递归过程跟我之前做的有点不太一样 因为是返回一个boolean的递归不是返回void的递归 蛮有意思的 可以看看
